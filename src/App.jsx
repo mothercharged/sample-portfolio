@@ -60,17 +60,17 @@ function App() {
               rel="noopener noreferrer"
               onClick={() => handleClick('adobe')}
             >
-              📼 Quick Start-Up Guide
+              🕹️ Quick Start-Up Guide
             </a>
 
             <a
-              href="https://www.figma.com/proto/PVBCSwwz5xdurkEZXQBYX8/sample-portfolio-app?node-id=23-2&t=A773RytPEVC5EcpC-1"
+              href="https://youtube.com/shorts/_qTP2OXC2tc?si=Uaq2WGOtNY_4fYoP"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
               onClick={() => handleClick('figma')}
             >
-              🕹️ UX Mockup Sample
+              📼 Video Tutorial
             </a>
           </nav>
 
