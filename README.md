@@ -1,12 +1,32 @@
-# React + Vite
+# 🎮 Michelle Quinn – Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This site showcases my work as a **Content Designer**, **Instructional Designer**, and **UX Storyteller** — all wrapped in a retro arcade aesthetic.
 
-Currently, two official plugins are available:
+## 🕹️ What’s Inside
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive E-Learning Content**: A sample Articulate Storyline module.
+- **Quick Start-Up Guide**: A visual how-to built in Adobe Express.
+- **UX Mockup Sample**: A Figma prototype of this app’s design.
+- **Bonus Content**: Press START after unlocking all levels to reveal my resume!
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- Tailwind CSS
+- HTML5 / CSS3
+- Git + GitHub
+
+## 🧠 About Me
+
+I’m a content strategist focused on intuitive storytelling, user clarity, and bold, engaging design. I have experience in:
+
+- Defense & Tech
+- eLearning development
+- UX writing and prototyping
+- Design systems and accessibility
+
+---
+
+✨ **Press Start to Begin**  
+📫 [LinkedIn](www.linkedin.com/in/michelle-patricia-quinn-53676098)  
+📄 [Resume](https://docs.google.com/document/d/1znBtm6Bb2Bj90b09BEfSNDV9LFmhMSP5JLrnByWeRsE/edit?usp=sharing)
