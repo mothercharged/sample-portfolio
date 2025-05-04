@@ -50,7 +50,7 @@ function App() {
               rel="noopener noreferrer"
               onClick={() => handleClick('articulate')}
             >
-              🕹️ Interactive E-Learning Content
+              🕹️ Interactive e-Learning Content
             </a>
 
             <a
@@ -75,7 +75,7 @@ function App() {
           </nav>
 
           {allLinksClicked && !coinInserted && (
-            <button onClick={handleInsertCoin} className="insert-coin glow-button">
+            <button onClick={handleInsertCoin} className="insert-coin-button">
               INSERT COIN
             </button>
           )}
