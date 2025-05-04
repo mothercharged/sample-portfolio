@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background: #0d0d0d; /* Darker background */
+  color: #33c7b3; /* Soft neon teal */
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-screen {
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #cc66ff; /* Soft purple */
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+  color: #66ffe0;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.project-link {
+  background: #1a1a1a;
+  border: 2px solid #33c7b3;
+  color: #33c7b3;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.project-link:hover {
+  background: #33c7b3;
+  color: #0d0d0d;
+  transform: scale(1.03);
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  color: #d26bff;
+  animation: blink 1s step-start infinite;
+}
+
+.insert-coin-button,
+.glow-button {
+  background-color: #cc66ff;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+  margin-top: 2rem;
+}
+
+.insert-coin-button:hover,
+.glow-button:hover {
+  background-color: #d26bff;
+}
+
+.press-start-button {
+  background: #111;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  padding: 1rem;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.press-start-button:hover {
+  background: #00ffcc;
+  color: #111;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(204, 102, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 15px 5px rgba(204, 102, 255, 0.5);
+  }
+}
