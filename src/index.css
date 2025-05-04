@@ -14,6 +14,7 @@ body {
 .main-screen {
   max-width: 800px;
   margin: auto;
+  padding: 1rem;
 }
 
 .title {
@@ -57,8 +58,7 @@ body {
   animation: blink 1s step-start infinite;
 }
 
-.insert-coin-button,
-.glow-button {
+.insert-coin-button {
   background-color: #cc66ff;
   color: black;
   font-weight: bold;
@@ -71,9 +71,12 @@ body {
   margin-top: 2rem;
 }
 
-.insert-coin-button:hover,
-.glow-button:hover {
+.insert-coin-button:hover {
   background-color: #d26bff;
+}
+
+.bonus-content {
+  margin-top: 2rem;
 }
 
 .press-start-button {
@@ -86,7 +89,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: inline-block;
   text-decoration: none;
 }
@@ -94,6 +97,23 @@ body {
 .press-start-button:hover {
   background: #00ffcc;
   color: #111;
+}
+
+.play-again-button {
+  background: #cc66ff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: 'Press Start 2P', monospace;
+  color: black;
+  margin-top: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+.play-again-button:hover {
+  background: #ff80ff;
 }
 
 @keyframes blink {
@@ -108,5 +128,44 @@ body {
   }
   50% {
     box-shadow: 0 0 15px 5px rgba(204, 102, 255, 0.5);
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .main-screen {
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .subtitle {
+    font-size: 0.6rem;
+  }
+
+  .project-link {
+    font-size: 0.7rem;
+    padding: 0.75rem;
+  }
+
+  .insert-coin-button {
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .press-start-button,
+  .play-again-button {
+    font-size: 0.7rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .footer-text {
+    font-size: 0.65rem;
   }
 }
