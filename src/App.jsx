@@ -64,7 +64,7 @@ function App() {
             </a>
 
             <a
-              href="https://youtube.com/shorts/_qTP2OXC2tc?si=Uaq2WGOtNY_4fYoP"
+              href="https://youtube.com/shorts/zBNWr1B-ejo?si=6aVO6upAG_NUOkaH"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
