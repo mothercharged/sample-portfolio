@@ -6,6 +6,7 @@ function App() {
     articulate: false,
     adobe: false,
     figma: false,
+    newContent: false,
   });
   const [coinInserted, setCoinInserted] = useState(false);
   const [showGameOver, setShowGameOver] = useState(false);
@@ -64,13 +65,23 @@ function App() {
             </a>
 
             <a
-              href="https://youtube.com/shorts/zBNWr1B-ejo?si=6aVO6upAG_NUOkaH"
+              href="https://youtube.com/shorts/zBNWr1B-ejo?si=6aVO6upAG_NUOkaH-+"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
               onClick={() => handleClick('figma')}
             >
               📼 Video Tutorial
+            </a>
+
+            <a
+              href="/projects/articulate/Storyline360/How%20To%20Engage%20With%20Your%20Audience/story.html"
+              className="new-content-button"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => handleClick('newContent')}
+            >
+              🔥 Click for New Content
             </a>
           </nav>
 
